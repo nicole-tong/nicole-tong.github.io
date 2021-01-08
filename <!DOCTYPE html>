@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Introduce Each Other</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+
+  </head>
+  <body>
+    <h1 style= "color: green">Thu Nguyen</h1>
+    <style> body {background-color: beige}</style>
+    <ul>
+      <li style= "color: green">Favorite ice cream flavor is matcha</li>
+      <li style= "color: green">Has a dog name Lu</li>
+      <li style= "color: green">From <a href="http://www.vietnam-guide.com/hai-phong/"> Haiphong Vietnam</li>
+
+  
+    
+    </ul>
+
+
+      <img src="https://asianketokitchen.com/wp-content/uploads/2019/10/matcha-ice3-akk-500x500.jpg"=matcha ice cream "width= "200">
+
+    <script src="script.js"></script>
+  </body>
+</html>
