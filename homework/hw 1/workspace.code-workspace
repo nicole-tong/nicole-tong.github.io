@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../.."
+		},
+		{
+			"path": "../../../homework/hw 1"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "nicoletong.github.io"
+	}
+}
