@@ -6,7 +6,7 @@ Ffont-size: 16px;
 */
 
 h1 {
-  font-family: 'Oxygen'; Sans-serif;
+  font-family: 'Oxygen', Sans-serif;
   position: auto;
   border:black
 }
