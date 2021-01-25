@@ -1,0 +1,66 @@
+/*
+font-family: 'Lato', Sans-Serif;
+font-size: 46px;
+font-family: 'Catamaran', Sans-Serif;
+font-size: 16px;
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'catamran', Sans-serif;
+    font-size: 30px;
+    text-align: center;
+    line-height: 86px;
+  }
+
+p { 
+    font-family: 'catamaran', Sans-serif;;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+h1 {
+    width: 65%;
+    margin: 40px auto;
+}
+
+main {
+    width: 80%;
+    margin: 112px auto;
+}
+
+img {
+    width: 100%;
+    
+}
+
+.gallery {
+    display: flex;
+    width: auto;
+    margin: -31px;
+    padding: 100px;
+}
+
+.gallery div { 
+    border: 0px solid black;
+}
+
+.limes {
+    margin: -31px 33px;
+}
+
+.oranges {
+    margin: -31px 33px;
+}
+
+.bananas {
+    margin: -31px 33px;
+}
+
+.blueberries {
+    margin: -31px 33px;
+}
+
