@@ -1,0 +1,69 @@
+* {box-sizing: border-box;}
+body { margin: 0;}
+.scroll-link {
+    position: fixed;
+    right: 80px;
+    top: 40vh;
+}
+.scroll-link img { border-radius: 50%;}
+header {
+    width: 100vw;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:#fff;
+    height: 100px;
+}
+.welcome-msg {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    top: 150px;
+    z-index: 1;
+}
+
+.welcome-msg h1 {
+    font-weight: 100;
+    letter-spacing: 5px;
+}
+
+main {
+    display: flex;
+    width: 500vw;
+    height: 90vh;
+}
+section { 
+    width: 100vw;height: 100vh;
+    margin-top: 140px;
+    }
+section:nth-child(1){
+    background-color: antiquewhite;
+}
+section:nth-child(2){
+    background-color: lightblue;
+}
+section:nth-child(3){
+    background-color: lightpink;
+}
+section:nth-child(4){
+    background-color: lightgray;
+}
+section:nth-child(5){
+    background-color: lightgoldenrodyellow;
+}
+.subpage div { flex: 1;}
+.issue37 {
+    display: flex;
+    border: 8px solid red;
+}
+
+.issue-img { background-color: blue;}
+
+.issue-img, .issue-content { padding: 120px;}
+.issue-content {
+    display: flex;
+    align-items: flex-end;
+
+}
+
