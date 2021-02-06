@@ -1,10 +1,37 @@
 * {box-sizing: border-box;}
-body { margin: 0;}
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: absolute;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-50%,-50%)
+
+}
+
+.background-image: url('images/kinfolk-altimage.jpg');
+
+
+body { 
+    margin: 0;
+}
+
 .scroll-link {
     position: fixed;
     right: 80px;
     top: 40vh;
 }
+
 .scroll-link img { border-radius: 50%;}
 header {
     width: 100vw;
@@ -15,7 +42,8 @@ header {
     background-color:#fff;
     height: 100px;
 }
-.welcome-msg {
+
+.enter-msg {
     position: relative;
     text-align: center;
     color: #fff;
@@ -23,7 +51,7 @@ header {
     z-index: 1;
 }
 
-.welcome-msg h1 {
+.enter-msg h1 {
     font-weight: 100;
     letter-spacing: 5px;
 }
@@ -33,26 +61,35 @@ main {
     width: 500vw;
     height: 90vh;
 }
+
 section { 
     width: 100vw;height: 100vh;
     margin-top: 140px;
     }
+
 section:nth-child(1){
-    background-color: antiquewhite;
+    background-color: white;
 }
+
 section:nth-child(2){
-    background-color: lightblue;
+    background-color: white;
 }
+
 section:nth-child(3){
-    background-color: lightpink;
+    background-color: white;
 }
+
 section:nth-child(4){
-    background-color: lightgray;
+    background-color: white;
 }
+
 section:nth-child(5){
-    background-color: lightgoldenrodyellow;
+    background-color: white;
 }
-.subpage div { flex: 1;}
+
+.subpage div { flex: 1;
+}
+
 .issue37 {
     display: flex;
     border: 8px solid red;
@@ -61,9 +98,9 @@ section:nth-child(5){
 .issue-img { background-color: blue;}
 
 .issue-img, .issue-content { padding: 120px;}
+
 .issue-content {
     display: flex;
     align-items: flex-end;
-
 }
 
