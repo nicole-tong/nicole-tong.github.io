@@ -21,6 +21,15 @@
 
 .background-image: url('images/kinfolk-altimage.jpg');
 
+header {
+    width: 100vw;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:#fff;
+    height: 100px;
+    }
 
 body { 
     margin: 0;
@@ -33,16 +42,6 @@ body {
 }
 
 .scroll-link img { border-radius: 50%;}
-
-header {
-    width: 100vw;
-    display: flex;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color:#fff;
-    height: 100px;
-}
 
 .enter-msg {
     position: relative;
@@ -71,15 +70,6 @@ section {
     margin-top: 140px;
     }
 
-
-.topnav a{
-    float: right;
-    color: black;
-    text-align: center;
-    text-decoration: none;
-    font-size: 17px;
-}
-
 section:nth-child(1){
     background-color: white;
 }
@@ -100,13 +90,29 @@ section:nth-child(5){
     background-color: white;
 }
 
-.subpage div { flex: 1;
+.subpage div { 
+    flex: 1;
+    font-family: ;
 }
 
-.issue37 {
+.issue-38-cover {
+    width: 200vw;
+    height: 250vh;
+    margin-top: 93px;
+    display: flex;
+}
+
+.spread-1-subpage {
+    width: 200vw;
+    height: 72vh;
+    margin-top: 140px;
+    display: flex;
+}
+
+.spread-3-subpage {
     width: 87vw;
     height: 100vh;
-    margin-top: 140px;
+    margin-top: 18px;
     display: flex;
 }
 
