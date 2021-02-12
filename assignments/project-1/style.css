@@ -1,123 +1,149 @@
-* {box-sizing: border-box;}
-
-.container {
-    position: absolute;
-    text-align: center;
-    color: white;
-    min-height: 100%;
-    min-width: 1024px;
-    width: 100%;
-    height: 1200px;
-    position: fixed;
-    top: 0;
-    left: 0;
+* {
+  box-sizing: border-box;
 }
 
+.container {
+  position: absolute;
+  text-align: center;
+  color: white;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: 1200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.splash-page .container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("images/kinfolk-altimage.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 1px solid #333;
+  padding: 16px 20px;
+  text-decoration: none;
+}
 .centered {
-    text-align: center;
-    right: 50px;
-    left: 50px;
+  text-align: center;
+  right: 50px;
+  left: 50px;
 }
 
 header {
-    width: 100vw;
-    display: flex;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color:#fff;
-    height: 100px;
-    }
+  width: 100vw;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  height: 100px;
+}
 
-body { 
-    margin: 0;
+body {
+  margin: 0;
 }
 
 .scroll-link {
-    position: fixed;
-    right: 80px;
-    top: 40vh;
+  position: fixed;
+  right: 80px;
+  top: 40vh;
 }
 
-.scroll-link img { border-radius: 50%;}
+.scroll-link img {
+  border-radius: 50%;
+}
 
 .enter-msg {
-    position: relative;
-    text-align: center;
-    color: #fff;
-    top: 150px;
-    z-index: 1;
+  position: relative;
+  text-align: center;
+  color: #fff;
+  top: 150px;
+  z-index: 1;
 }
 
 .enter-msg h1 {
-    font-weight: 100;
-    letter-spacing: 5px;
+  font-weight: 100;
+  letter-spacing: 5px;
 }
 
-header {display:flex;}
+header {
+  display: flex;
+}
 
 main {
-    display: flex;
-    width: 500vw;
-    height: 90vh;
+  display: flex;
+  width: 500vw;
+  height: 90vh;
 }
 
-section { 
-    width: 87vw;
-    height: 100vh;
-    margin-top: 140px;
-    }
-
-section:nth-child(1){
-    background-color: white;
+section {
+  width: 87vw;
+  height: 100vh;
+  margin-top: 140px;
 }
 
-section:nth-child(2){
-    background-color: white;
+section:nth-child(1) {
+  background-color: white;
 }
 
-section:nth-child(3){
-    background-color: white;
+section:nth-child(2) {
+  background-color: white;
 }
 
-section:nth-child(4){
-    background-color: white;
+section:nth-child(3) {
+  background-color: white;
 }
 
-section:nth-child(5){
-    background-color: white;
+section:nth-child(4) {
+  background-color: white;
 }
 
-.subpage div { 
-    flex: 1;
-    font-family: ;
+section:nth-child(5) {
+  background-color: white;
+}
+
+.subpage div {
+  flex: 1;
+  font-family: ;
 }
 
 .issue-38-cover {
-    width: 200vw;
-    height: 250vh;
-    margin-top: 93px;
-    display: flex;
+  width: 200vw;
+  height: 250vh;
+  margin-top: 93px;
+  display: flex;
+  background-color: #b3aca4;
 }
 
 .spread-1-subpage {
-    width: 200vw;
-    height: 72vh;
-    margin-top: 140px;
-    display: flex;
+  width: 200vw;
+  height: 72vh;
+  margin-top: 140px;
+  display: flex;
 }
 
 .spread-3-subpage {
-    width: 87vw;
-    height: 100vh;
-    margin-top: 18px;
-    display: flex;
+  width: 87vw;
+  height: 100vh;
+  margin-top: 18px;
+  display: flex;
 }
 
-.issue-img, .issue-content { padding: 120px;}
+.issue-img,
+.issue-content {
+  padding: 120px;
+}
 
 .issue-content {
-    display: flex;
-    align-items: flex-end;
+  display: flex;
+  align-items: flex-end;
 }
-
