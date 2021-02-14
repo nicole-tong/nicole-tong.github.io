@@ -2,8 +2,23 @@
   box-sizing: border-box;
 }
 
+@font-face {
+    font-family: Optimus Princeps;
+    src: url(fonts/OptimusPrincepsSemiBold.ttf);
+  }
+
+.title { 
+    font-family: 'OptimusPrincepsSemiBold';
+}
+
+.centered {
+    font-family: adobe-caslon-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .container {
-  position: absolute;
+  position: relative;
   text-align: center;
   color: white;
   min-height: 100%;
@@ -14,11 +29,12 @@
   top: 0;
   left: 0;
 }
+
 .splash-page .container {
   position: relative;
   width: 100vw;
   height: 100vh;
-  background-image: url("images/kinfolk-altimage.jpg");
+  background-image: url("images/project1-splashpage.png");
   background-size: cover;
   display: flex;
   align-items: center;
@@ -29,13 +45,23 @@
   color: #ffffff;
   background-color: rgba(0, 0, 0, 0.4);
   border: 1px solid #333;
-  padding: 16px 20px;
+  padding: 14px 53px;
   text-decoration: none;
 }
+
+.title {
+    right: 30px;
+    left: 30px;
+    line-height: 129px;
+    font-size: 54px;
+
+}
+
 .centered {
   text-align: center;
   right: 50px;
   left: 50px;
+  font-size: 22px;
 }
 
 header {
