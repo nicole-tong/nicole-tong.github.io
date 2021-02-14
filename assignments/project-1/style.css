@@ -45,7 +45,7 @@
   color: #ffffff;
   background-color: rgba(0, 0, 0, 0.4);
   border: 1px solid #333;
-  padding: 14px 53px;
+  padding: 9px 53px;
   text-decoration: none;
 }
 
@@ -139,7 +139,6 @@ section:nth-child(5) {
 
 .subpage div {
   flex: 1;
-  font-family: ;
 }
 
 .issue-38-cover {
