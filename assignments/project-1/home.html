@@ -13,13 +13,22 @@
       background-color: #ccc;
       justify-content: space-around;
     }
+
     header h1 {
+      text-align: left;
+    }
+    
+    header .rightnav {
+      display: flex;
+      position: absolute;
+    }
+
+    header .rightnav {
+      flex: 80%;
       text-align: right;
     }
-    header nav {
-      display: flex;
-    }
-    header nav div {
+
+    header .rightnav div {
       flex: 1;
       text-align: center;
     }
@@ -27,7 +36,8 @@
   <body>
     <header>
 
-        <div class="kinfolk">K I N F O L K</div>
+        <div class="kinfolk"><h1>K I N F O L K</h1></div>
+        <div class="rightnav"></div>
         <nav>
           <div><a href="Issue 38">link</a></div>
           <div><a href="Issue 37">link</a></div>
@@ -36,11 +46,12 @@
         </nav>
     
     <main>
-      <a href="" class="scroll-link"><img src="http://placekitten.com/100/100"></a>
-        <section class="Issue-38-cover">
-                <img src="images/Group 13 (1).png" width="960">
-        </section>
-      
+      <div>
+      <section class="Issue-38-cover">
+        <img src="images/kinfolk-issue38.jpg" width=320>
+      </section>
+        </div>
+        </header>
     </main>
 
 
