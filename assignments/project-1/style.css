@@ -58,7 +58,7 @@ header h1 {
 .rightnav {
   display: flex;
   width: 100vw;
-  background-color: #ccc;
+  background-color: white;
   justify-content: space-around;
 }
 
@@ -109,7 +109,7 @@ main {
 section {
   width: 50vw;
   height: 100vh;
-  margin-top: 267px;
+  margin-top: 158px;
   margin-bottom: -150px;
 }
 
