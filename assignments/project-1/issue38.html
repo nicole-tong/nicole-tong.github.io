@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width">
     <title>Kinfolk Issues</title>
     <link href="style.css" rel="stylesheet" type="text/css"/>
-  <header>
   <style>
     header {
       display: flex;
@@ -14,45 +13,62 @@
       justify-content: space-around;
     }
 
-    header h1 {
+    h1 {
+      width: 150px;
       text-align: left;
     }
-    
-    header .rightnav {
-      display: flex;
-      position: absolute;
+
+  
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
     }
 
-    header .rightnav {
-      flex: 80%;
-      text-align: right;
-    }
+li {
+  display: inline;
+}
+.rightnav {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.link-padding {
+  padding-right: 5px;
+}
 
-    header .rightnav div {
-      flex: 1;
-      text-align: center;
-    }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 50px;
+}
   </style>
+  </head>
   <body>
-    <header>
-
-        <div class="kinfolk"><h1>K I N F O L K</h1></div>
-        <div class="rightnav"></div>
-        <nav>
-          <div><a href="Issue 38">link</a></div>
-          <div><a href="Issue 37">link</a></div>
-          <div><a href="Issue 36">link</a></div>
-          <div><a href="Issue 35">link</a></div>
+    <nav class="rightnav">
+        <div class="kinfolk"><h1>K I N F O L K</h1></div> 
+        <div><h3>____________________________________________</h3></div>
+        <!-- <div class="rightnav"></div> -->
+        <div style="padding-top:25px">
+          <ul>
+            <li><a href="issue38.html" class="link-padding">Isssue 38</a></li>
+            <li><a href="issue37.html" class="link-padding">Issue 37</a></li>
+            <li><a href="issue36.html" class="link-padding">Issue 36</a></li>
+            <li><a href="issue35.html" class="link-padding">Issue 35</a></li>
+          </ul>
+        </div>
         </nav>
-    
     <main>
-      <div><section class="Issue-38-cover">
-        <img src="images/kinfolk-issue38.jpg" width=320></section>
+      <div><section class="Issue-38-cover" style="background-color: #b5aea6;">
+        <img src="images/kinfolk-issue38.jpg" width=320 class="center"></section>
       </div>  
-      </header>
+      <div><section class="Issue-38-info">
+        <h1>Issue 38</h1>
+        <h3>Release: December 1st, 2020</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit ipsam dolores alias aperiam, ratione fugiat magnam recusandae aliquid dolorem atque iure molestiae adipisci quae assumenda repudiandae autem animi rerum voluptate?</p>
+      </section></div> 
     </main>
-
-
     <script src="script.js"></script>
   </body>
 </html>

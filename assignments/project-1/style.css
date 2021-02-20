@@ -113,10 +113,6 @@ section {
   margin-bottom: -150px;
 }
 
-section:nth-child(1) {
-  background-color: #b5aea6;
-
-}
 
 .subpage div {
   flex: 1;
@@ -128,6 +124,13 @@ section:nth-child(1) {
   margin-top: 383px;
   display: flex;
   background-color: #b5aea6;
+  background-position: left;
+}
+
+.issue-38-info {
+  margin-top: 383px;
+  display: flex;
+  background-color: white;
   background-position: left;
 }
 
