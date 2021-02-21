@@ -7,8 +7,48 @@
     src: url(fonts/OptimusPrincepsSemiBold.ttf);
   }
 
+.rightnav {
+  font-family: montserrat, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-family: Optimus Princeps;
+  src: url(fonts/OptimusPrincepsSemiBold.ttf);
+}
+
+h1 {
+  font-size: 180%;
+}
+
+h2 {
+  font-family: montserrat, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3 {
+  font-family: montserrat-alternates, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 0px;
+}
+
+p {
+  font-family: adobe-caslon-pro, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .title { 
     font-family: 'OptimusPrincepsSemiBold';
+}
+
+p {
+    color: #8C8C8C;
+    width: 425px;
 }
 
 .centered {
@@ -40,7 +80,7 @@ header h1 {
   position: relative;
   width: 100vw;
   height: 100vh;
-  background-image: url("images/project1-splashpage.png");
+  background-image: url("images/project1-splash-fade.png");
   background-size: cover;
   display: flex;
   align-items: center;
@@ -90,27 +130,15 @@ body {
   margin: 0;
 }
 
-.scroll-link {
-  position: fixed;
-  right: 80px;
-  top: 40vh;
-}
-
-.scroll-link img {
-  border-radius: 50%;
-}
-
 main {
   display: flex;
-  width: 500vw;
-  height: 90vh;
 }
 
 section {
   width: 50vw;
   height: 100vh;
-  margin-top: 158px;
-  margin-bottom: -150px;
+  margin-top: 97px;
+  height: 500px;
 }
 
 
@@ -147,12 +175,17 @@ section {
 .mySlides {display: none}
 img {vertical-align: middle;}
 
+.mySlides fade {
+  margin-top: -260px;
+}
+
 /* Slideshow container */
 .slideshow-container {
   line-height: 1065px;
   max-width: 5000px;
   position: relative;
   margin: auto;
+  margin-top: -93px;
 }
 
 /* Next & previous buttons */
