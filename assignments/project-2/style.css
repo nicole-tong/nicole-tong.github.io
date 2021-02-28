@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+  }
+
+  .rightnav {
+    display: flex;
+    width: 106vw;
+    background-color: white;
+    justify-content: space-around;
+  }
+
+  header {
+    width: 100vw;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    height: 100px;
+  }
