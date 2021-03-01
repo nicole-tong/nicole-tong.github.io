@@ -78,7 +78,7 @@ header h1 {
   height: 100vh;
   background-image: url("images/project1-splash-fade.png");
   background-repeat: no-repeat;
-  background-size: 100% 80%;
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
