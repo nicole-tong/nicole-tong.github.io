@@ -9,6 +9,7 @@ body {
 h1 {
   font-size: 32px;
   line-height: 38px;
+  margin-bottom: 0;
 }
 
 h2 {
@@ -26,17 +27,46 @@ header {
   margin: auto;
 }
 
+p {
+  margin-bottom: 40px;
+}
+
 img {
   width: 100%;
+  margin-top: 15px;
 }
 
 .feature .feature-content, .content-card {
   width: 90%;
   margin: auto;
+  margin-bottom: 69px;
+}
+
+.feature {
+  display: flex;
+}
+
+.button {
+  border: 1px solid black;
+  padding: 14px 26px;
+  text-decoration: none;
 }
 
 @media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 60px;
+    line-height: 68px;
+  }
+
+  h2 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  
+  header h2 {
+    font-weight: bold;
+  }
 }
 
-@media only screen and (min-width: 2400px) {
+@media only screen and (min-width: 1440px) {
 }
