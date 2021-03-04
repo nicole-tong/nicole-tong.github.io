@@ -79,28 +79,38 @@ article, .feature {
     line-height: 42px;
   }
 
-  header h2 {font-weight: bold;}
-    .feature, .news-thumbs {
-      flex-direction: row;
-      margin: 0 auto;
-      width: 80%;
-    }
+  header {
+    width: 80%;
+  }
 
-    article {
-      margin-right: 30px;
-    }
+  header h2 {
+    font-weight: bold;
+  }
 
-    article:last-child {
-      margin-right: 0;
-    }
-    .news-thumbs {
-      margin-top: 60px;
-    }
+  .feature, .news-thumbs {
+    flex-direction: row;
+    margin: 0 auto;
+    width: 80%;
+  }
 
-    .feature .article-tidbit {
-      display: block;
-    }
+  article {
+    margin-right: 30px;
+  }
+
+  article:last-child {
+    margin-right: 0;
+  }
+  .news-thumbs {
+    margin-top: 60px;
+  }
+
+  .feature .article-tidbit {
+    display: block;
+  }
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 2400px) {
+  .feature, .news-thumbs, header {
+    width: 60%;
+  }
 }
