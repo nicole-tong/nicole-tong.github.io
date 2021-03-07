@@ -1,35 +1,131 @@
 * {
-    box-sizing: border-box;
-  }
-  @font-face {
-    font-family: Optimus Princeps;
-    src: url(fonts/OptimusPrincepsSemiBold.ttf);
+  box-sizing: border-box;
   }
 
-.rightnav {
-  font-family: montserrat, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
+body {
+  background-color: rgb(254,251,244);
+  }
 
 h1 {
-  font-family: Optimus Princeps;
-  src: url(fonts/OptimusPrincepsSemiBold.ttf);
+  font-size: 13px;
+  font-weight: normal;
+  }
+
+h1 {
+  margin-bottom: -11px;
+  margin-top: -35px;
+  }
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  margin-top: 17px;
+  }
+
+h3 {
+  font-size: 30px;
+  font-weight: bold;
+  }
+
+h4 {
+  font-size: 27px;
+  font-weight: normal;
+  text-align: center;
+  }
+
+p {
+  font-size: 16px;
+  font-weight: normal;
+  margin-top: 16px;
+  }
+
+body {
+  font-size: 16px;
+  margin: 0;
+  }
+
+.paragraph-tidbit {
+  font-weight: normal;
+  font-size: 16px;
+  }
+
+img {
+  width: 100%;
+  margin-bottom: 23px;
+  }
+
+h3, h4, h5, p {
+  width: 91%;
+  margin: auto;
+  }
+
+h2, h5, p, .content-card {
+  margin-bottom: 39px;
+  }
+
+.feature .feature-content, .content-card .button {
+  width: 91%;
+  margin: auto;
+  }
+
+.feature .feature-content, .content-card {
+  margin-bottom: 56px;
+  }
+
+.feature .news-thumbs {
+  display: flex;
+  flex-direction: column;
+  }
+
+.content-card {
+  text-align: center;
+  }
+
+.button {
+  padding: 14px 26px;
+  text-decoration: none;
+  background-color: rgb(121,127,102);
+  color: rgb(254,251,244);
+  font-size: 20px;
+  }
+
+/* One Page Smooth Scroll */
+
+html, body, #page-one, #page-two, #page-three, #page-four {
+	height:auto;
+	min-height: 100vh;
+  }
+
+#page-one, #page-two, #page-three, #page-four {padding-top:2em;}
+
+#mainNav {
+  background-color: rgb(254,251,244);
+  color: #ddd;
+  line-height:4em;
+  padding:0 1em;
+  position:fixed; 
+  top: 0em; 
+  width:100%; 
+  }
+
+#mainNav {
+  a, a:link, a:visited, a:hover, a:active {
+    color: #eee; 
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 1em;
+  }
+  a:hover {color: #4861A2;}
+
+
+#page-one {background-color:#fff;}
+#page-two {background-color:#ccc;}
+#page-three {background-color:#aaa;}
+#page-four {background-color:#888;}
+  }
+/* For Desktop */
+
+@media only screen and (min-width: 768px) {
 }
-
-  .rightnav {
-    display: flex;
-    width: 106vw;
-    background-color: white;
-    justify-content: space-around;
-  }
-
-  header {
-    width: 100vw;
-    display: flex;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: #fff;
-    height: 100px;
-  }
+@media only screen and (min-width: 1200px) {
+}

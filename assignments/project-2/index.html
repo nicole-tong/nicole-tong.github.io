@@ -4,74 +4,88 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <style>
-  header {
-    display: flex;
-    width: 106vw;
-    background-color: white;
-    justify-content: space-around;
-  }
-
-  h1 {
-    font-size: 28px;
-    width: 32px;
-    text-align: left;
-    white-space: nowrap;
-    padding-top: 14px;
-  }
-
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  li {
-    display: inline;
-  }
-
-  .rightnav {
-    padding-top: 29px;
-    padding-bottom: 25px;
-    padding-right: 1px;
-  }
-
-  .rightnav .line {
-    border-bottom: 1px sold black;
-    width: 13.7%;
-    height: 2px;
-    padding-top: 40px;
-  }
-
-  .link-padding {
-    padding-right: 126px;
-    text-decoration: none;
-    color: black;
-  }
-
-  .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    padding-top: 50px;
-  }
-    </style>
     <title>One Song Yoga</title>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
-    <nav class="rightnav">
-        <div class="kinfolk"><h1>One Song Yoga</h1></div> 
-        <!-- <div class="rightnav"></div> -->
-        <div style="padding-top:45px">
-          <ul>
-            <li><a href="about.html" class="link-padding">ABOUT</a></li>
-            <li><a href="issue37.html" class="link-padding">STAFF</a></li>
-            <li><a href="issue36.html" class="link-padding">PRICES</a></li>
-            <li><a href="issue35.html" class="link-padding">BOOK</a></li>
-          </ul>
+<main>
+  
+  <nav id="mainNav">Go To Page: 
+    <a href="#page-one">HOME</a>|
+    <a href="#page-two">ABOUT</a>|
+    <a href="#page-three">STAFF</a>|
+    <a href="#page-four">SERVICES</a>
+  </nav>
+  
+  <section id="page-one">
+    <section class="feature">
+      <div class="feature-image"> 
+        <img src="images/project2_homeimage.png" alt="home page image">
+      </div>
+      <div class="feature-content" style="margin-top:21px;">
+        <h1>MUDRA. MANTRA. CHAKRA. ASANA.</h1>
+        <h2>Everything you need is right here</h2>
+        <a class="button" href="#">READ MORE</a>
+      </div>
+  </section>
+
+  <section id="page-two">
+    <section class="feature"></section>
+      <div class="feature-content">
+        <h3>ABOUT</h3>
+        <p class="body-tidbit">One Song is a sacred place, designed with beauty, and used consiously for opening to higher realms. A place where you can find the connection between your everyday self and your infinite self. </p>
+      </div>
+      <div class="feature-image">
+        <img src="images/Project2_AboutImage.png" alt="about page image">
+      </div>
+        <a class="button" href="#">LEARN MORE</a> 
+      </div>    
+  </section>
+
+  <section id="page-three">
+    <section class="feature"></section>
+      <div class="feature-content">
+        <h3>WHO WE ARE</h3>
+        <section class="feature">
+        <p class="body-tidbit">One Song Teacher Training is designed to empower leaders to go out and teach the sacred. Our focus will be yoga, but whatever your passion or calling may be, this training will qualify you to teach what you love at your fullest potential. </p>
+      <div class="feature-image">
+        <img src="images/Project2_WhoWeAreImage.png" alt="about page image">
+      </div>
+      <a class="button" href="#">LEARN MORE</a>
+      </div>
+  </section>
+
+  <section id="page-four">
+  <section class="news-thumbs">
+    <h3 style="text-align:center;">SERVICES</h3> 
+      <article>
+        <img src="images/project2_services_yoga.png" alt="service photo of yoga">
+        <div class="content-card">
+        <h4>Yoga</h4>
+        <a class="button" href="#">LEARN MORE</a>
         </div>
-      </nav>
+      </div>
+      </article>
+      <article> 
+        <img src="images/project2_services_meditation.png" alt="service photo of meditation">
+        <div class="content-card">
+        <h4>Meditation</h4>
+        <a class="button" href="#">LEARN MORE</a>
+        </div>
+      </article>
+      <article>
+        <img src="images/project2_services_chakra.png" alt="service photo of chakra">
+        <div class="content-card">
+        <h4>Chakra</h4>
+        <a class="button" href="#">LEARN MORE</a>
+        </div>
+      </article>
+    </div>
+    </section>
+
+</main>
+
+
 </body>
 </html>
