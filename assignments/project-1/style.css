@@ -100,10 +100,10 @@ header h1 {
 }
 
 .title {
-    right: 30px;
-    left: 30px;
-    line-height: 127px;
-    font-size: 54px;
+  right: 30px;
+  left: 30px;
+  line-height: 127px;
+  font-size: 54px;
 }
 
 .centered {
@@ -176,6 +176,7 @@ img {vertical-align: middle;}
 .mySlides fade {
   margin-top: -260px;
 }
+
 
 /* Slideshow container */
 .slideshow-container {
