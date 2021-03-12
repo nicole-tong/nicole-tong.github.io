@@ -1,16 +1,16 @@
 * {
   box-sizing: border-box;
-  }
+}
 @font-face {
   font-family: Arsenal;
   src: url(fonts/Arsenal-Regular.ttf);
 }
 
 body {
-  background-color: rgb(254,251,244);
+  background-color: rgb(254, 251, 244);
   font-size: 16px;
   margin: 0;
-  }
+}
 
 h1 {
   font-family: Arsenal;
@@ -22,7 +22,7 @@ h1 {
   margin-top: -35px;
   width: 91%;
   margin: auto;
-  }
+}
 
 h2 {
   font-family: Arsenal;
@@ -33,14 +33,14 @@ h2 {
   margin-top: 17px;
   width: 91%;
   margin: auto;
-  }
+}
 
 h3 {
   font-family: Arsenal;
   src: url(fonts/Arsenal-Regular.ttf);
   font-size: 30px;
   font-weight: bold;
-  }
+}
 
 h4 {
   font-family: Montserrat;
@@ -48,7 +48,7 @@ h4 {
   font-size: 27px;
   font-weight: normal;
   text-align: center;
-  }
+}
 
 p {
   font-family: Montserrat;
@@ -56,7 +56,7 @@ p {
   font-size: 16px;
   font-weight: normal;
   margin-top: 16px;
-  }
+}
 
 .button {
   font-family: Montserrat;
@@ -73,24 +73,23 @@ p {
 .paragraph-tidbit {
   font-weight: normal;
   font-size: 16px;
-  }
+}
 
 img {
   width: 100%;
   margin-bottom: 23px;
-  }
+}
 
 h3 {
   width: 91%;
   margin: auto;
   margin-bottom: 31px;
-  }
+}
 
 h4 {
   width: 91%;
   margin: auto;
- }
-
+}
 
 p {
   width: 91%;
@@ -99,71 +98,93 @@ p {
   line-height: 32px;
 }
 
-  
-h2, p, .content-card {
+h2,
+p,
+.content-card {
   margin-bottom: 39px;
-  }
+}
 
-.feature .feature-content, .content-card, {
+.feature .feature-content,
+.content-card {
   width: 91%;
   margin: auto;
-  }
+}
 
-.feature .feature-content, .content-card {
+.feature .feature-content,
+.content-card {
   margin-bottom: 56px;
-  }
+}
 
 .feature .news-thumbs {
   display: flex;
   flex-direction: column;
-  }
+}
 
 .content-card {
   text-align: center;
-  }
+}
 
 .button {
   padding: 14px 26px;
   text-decoration: none;
-  background-color: rgb(121,127,102);
-  color: rgb(254,251,244);
+  background-color: rgb(121, 127, 102);
+  color: rgb(254, 251, 244);
   font-size: 20px;
-  }
+}
 
 /* One Page Smooth Scroll */
 
-html, body, #page-one, #page-two, #page-three, #page-four {
-	height: auto;
-	min-height: 100vh;
-  }
+html,
+body,
+#page-one,
+#page-two,
+#page-three,
+#page-four {
+  height: auto;
+  min-height: 100vh;
+}
 
-#page-one, #page-two, #page-three, #page-four {padding-top:2em;}
+#page-one,
+#page-two,
+#page-three,
+#page-four {
+  padding-top: 2em;
+}
 
 #mainNav {
-  background-color: rgb(254,251,244);
+  background-color: rgb(254, 251, 244);
   color: #ddd;
-  line-height:4em;
-  padding:0 1em;
-  position:fixed; 
-  top: 0em; 
-  width:100%; 
-  }
+  line-height: 4em;
+  padding: 0 1em;
+  position: fixed;
+  top: 0em;
+  width: 100%;
+}
 
-#mainNav {
-  a, a:link, a:visited, a:hover, a:active {
-    color: #eee; 
-    text-decoration: none;
-    display: inline-block;
-    padding: 0 1em;
-  }
+#mainNav a,
+#mainNav a:hover {
+  color: #eee;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 1em;
+}
 
-  a:hover {color: #4861A2;}
+a:hover {
+  color: #4861a2;
+}
 
-
-#page-one {background-color:rgb(254,251,244);}
-#page-two {background-color:rgb(254,251,244);}
-#page-three {background-color:rgb(254,251,244);}
-#page-four {background-color:rgb(254,251,244);}
+#page-one {
+  background-color: rgb(254, 251, 244);
+}
+#page-two {
+  background-color: rgb(254, 251, 244);
+}
+#page-three {
+  background-color: rgb(254, 251, 244);
+}
+#page-four {
+  background-color: rgb(254, 251, 244);
+}
 /* End ofOne Page Smooth Scroll */
 
 /* For hamburger nav */
@@ -177,9 +198,22 @@ body {
   -webkit-animation: bugfix infinite 1s;
 }
 
-@keyframes bugfix { from {padding:0;} to {padding:0;}}
-@-webkit-keyframes bugfix { from {padding:0;} to {padding:0;}}
-
+@keyframes bugfix {
+  from {
+    padding: 0;
+  }
+  to {
+    padding: 0;
+  }
+}
+@-webkit-keyframes bugfix {
+  from {
+    padding: 0;
+  }
+  to {
+    padding: 0;
+  }
+}
 #overlay-button {
   position: absolute;
   right: 2em;
@@ -188,57 +222,57 @@ body {
   z-index: 5;
   cursor: pointer;
   user-select: none;
-  span {
-      height: 4px;
-      width: 35px;
-      border-radius: 2px;
-      background-color: white;
-      position: relative;
-      display: block;
-      transition: all .2s ease-in-out;
-      &:before {
-        top: -10px;
-        visibility: visible;
-      }
-      &:after {
-        top: 10px;
-      }
-      &:before, &:after {
-          height: 4px;
-          width: 35px;
-          border-radius: 2px;
-          background-color: white;
-          position: absolute;
-          content: "";
-          transition: all .2s ease-in-out;
-      }
-    }
-    &:hover span, &:hover span:before, &:hover span:after {
-      background: #333332;
-    }
+}
+#overlay-button span {
+  height: 4px;
+  width: 35px;
+  border-radius: 2px;
+  background-color: white;
+  position: relative;
+  display: block;
+  transition: all 0.2s ease-in-out;
+}
+#overlay-button span:before {
+  top: -10px;
+  visibility: visible;
+}
+#overlay-button span:after {
+  top: 10px;
+}
+#overlay-button span:before,
+#overlay-button span:after {
+  height: 4px;
+  width: 35px;
+  border-radius: 2px;
+  background-color: white;
+  position: absolute;
+  content: "";
+  transition: all 0.2s ease-in-out;
+}
+#overlay-button:hover span,
+#overlay-button:hover span:before,
+#overlay-button:hover span:after {
+  background: #333332;
 }
 
-input[type=checkbox] {
+input[type="checkbox"] {
   display: none;
 }
 
-input[type=checkbox]:checked ~ #overlay {
+input[type="checkbox"]:checked ~ #overlay {
   visibility: visible;
 }
 
-input[type=checkbox]:checked ~ #overlay-button {
-  &:hover span, span{
-    background: transparent;
-  }
-  span {
-    &:before {
-      transform: rotate(45deg) translate(7px, 7px);
-      opacity: 1;
-    }
-    &:after {
-      transform: rotate(-45deg) translate(7px, -7px);
-    }
-  }
+input[type="checkbox"]:checked ~ #overlay-button:hover span,
+input[type="checkbox"]:checked ~ #overlay-button span {
+  background: transparent;
+}
+input[type="checkbox"]:checked ~ #overlay-button span:before {
+  transform: rotate(45deg) translate(7px, 7px);
+  opacity: 1;
+}
+input[type="checkbox"]:checked ~ #overlay-button span:after {
+  transform: rotate(-45deg) translate(7px, -7px);
 }
 
 #overlay {
@@ -248,32 +282,31 @@ input[type=checkbox]:checked ~ #overlay-button {
   z-index: 2;
   visibility: hidden;
   position: fixed;
-  &.active {
-    visibility: visible;
-  }
-  ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    height: 100vh;
-    padding-left: 0;
-    list-style-type: none;
-    li {
-      padding: 1em;
-      a {
-        color: white;
-        text-decoration: none;
-        font-size: 1.5em;
-        &:hover {
-          color: #333332;
-        }
-      }
-    }
-  }
 }
-
+#overlay.active {
+  visibility: visible;
+}
+#overlay ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  height: 100vh;
+  padding-left: 0;
+  list-style-type: none;
+}
+#overlay ul li {
+  padding: 1em;
+}
+#overlay ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+#overlay ul li a:hover {
+  color: #333332;
+}
 /* For Desktop */
 
 @media only screen and (min-width: 768px) {
