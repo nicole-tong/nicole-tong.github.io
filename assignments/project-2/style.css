@@ -1,6 +1,10 @@
 * {
   box-sizing: border-box;
   }
+@font-face {
+  font-family: Arsenal;
+  src: url(fonts/Arsenal-Regular.ttf);
+}
 
 body {
   background-color: rgb(254,251,244);
@@ -9,37 +13,62 @@ body {
   }
 
 h1 {
+  font-family: Arsenal;
+  src: url(fonts/Montserrat-SemiBold.ttf);
   font-size: 13px;
   font-weight: normal;
-  }
-
-h1 {
+  letter-spacing: 1.5px;
   margin-bottom: -11px;
   margin-top: -35px;
+  width: 91%;
+  margin: auto;
   }
 
 h2 {
+  font-family: Arsenal;
+  src: url(fonts/Arsenal-Regular.ttf);
   font-size: 32px;
+  letter-spacing: 3px;
   margin-bottom: 10px;
   margin-top: 17px;
+  width: 91%;
+  margin: auto;
   }
 
 h3 {
+  font-family: Arsenal;
+  src: url(fonts/Arsenal-Regular.ttf);
   font-size: 30px;
   font-weight: bold;
   }
 
 h4 {
+  font-family: Montserrat;
+  src: url(fonts/Montserrat-Regular.ttf);
   font-size: 27px;
   font-weight: normal;
   text-align: center;
   }
 
 p {
+  font-family: Montserrat;
+  src: url(fonts/Montserrat-Light.ttf);
   font-size: 16px;
   font-weight: normal;
   margin-top: 16px;
   }
+
+.button {
+  font-family: Montserrat;
+  src: url(fonts/Montserrat-SemiBold.ttf);
+}
+
+.quote {
+  font-family: Montserrat;
+  src: url(fonts/Montserrat-SemiBold.ttf);
+  text-align: center;
+  font-size: 24px;
+}
 
 .paragraph-tidbit {
   font-weight: normal;
@@ -62,18 +91,20 @@ h4 {
   margin: auto;
  }
 
+
 p {
   width: 91%;
   margin: auto;
-  font-size: 24px;
+  font-size: 19px;
   line-height: 32px;
 }
+
   
-h2, h5, p, .content-card {
+h2, p, .content-card {
   margin-bottom: 39px;
   }
 
-.feature .feature-content, .content-card, .button {
+.feature .feature-content, .content-card, {
   width: 91%;
   margin: auto;
   }
@@ -102,7 +133,7 @@ h2, h5, p, .content-card {
 /* One Page Smooth Scroll */
 
 html, body, #page-one, #page-two, #page-three, #page-four {
-	height:auto;
+	height: auto;
 	min-height: 100vh;
   }
 
