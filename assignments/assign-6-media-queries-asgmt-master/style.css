@@ -27,10 +27,12 @@ header {
 
 header h2 {
   font-weight: normal;
+  margin-bottom: 34px;
 }
 
 img {
   width: 100%; 
+  margin-bottom: 20px;
 }
 
 .news-thumbs .content-card .img {
@@ -52,7 +54,7 @@ img {
 }
 
 .feature-content {
-  padding-left: 40px;
+  padding-left: -1px;
 }
 
 .feature div, .news-thumbs article {
@@ -95,6 +97,10 @@ img {
     margin: 0 auto;
     width: 80%;
     margin-top: 60px;
+  }
+
+  .feature-content {
+    padding-left: 40px;
   }
 
   article {
