@@ -17,6 +17,7 @@ h2 {
   font-size: 20px;
   font-weight: bold;
   line-height: 22px;
+  margin: 0;
 }
 
 header {
@@ -36,6 +37,10 @@ img {
   margin-top: 10px;
 }
 
+.feature .article-tidbit {
+  display: none;
+}
+
 .feature .feature-content, .content-card {
   width: 90%;
   margin: auto;
@@ -44,6 +49,10 @@ img {
 .feature, .news-thumbs {
   display: flex;
   flex-direction: column;
+}
+
+.feature-content {
+  padding-left: 40px;
 }
 
 .feature div, .news-thumbs article {
@@ -72,6 +81,10 @@ img {
     line-height: 42px;
   }
 
+  header {
+    width: 80%;
+  }
+
   header h2 {
     font-weight: bold;
   }
@@ -81,13 +94,33 @@ img {
     flex-direction: row;
     margin: 0 auto;
     width: 80%;
+    margin-top: 60px;
+  }
+
+  article {
+    margin-right: 30px;
+
+  }
+
+  article:last-child {
+    margin-right: 0;
+  }
+
+  .news-thumbs {
+    margin-top: 60px;
+  }
+
+  .feature .article-tidbit {
+    display: block;
   }
 
 }
 
 
-@media only screen and (min-width: 1440px) {
-
+@media only screen and (min-width: 2440px) {
+  .feature, .news-thumbs, header {
+    width: 60%;
+  }
 
   
 }
