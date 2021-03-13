@@ -31,7 +31,7 @@ h2 {
   letter-spacing: 3px;
   margin-bottom: 10px;
   margin-top: 17px;
-  width: 91%;
+  width: 81%;
   margin: auto;
 }
 
@@ -40,6 +40,8 @@ h3 {
   src: url(fonts/Arsenal-Regular.ttf);
   font-size: 30px;
   font-weight: bold;
+  width: 81%;
+  margin: auto;
 }
 
 h4 {
@@ -56,6 +58,8 @@ p {
   font-size: 16px;
   font-weight: normal;
   margin-top: 16px;
+  width: 81%;
+  margin: auto;
 }
 
 .button {
@@ -81,7 +85,7 @@ img {
 }
 
 h3 {
-  width: 91%;
+  width: 81%;
   margin: auto;
   margin-bottom: 31px;
 }
@@ -92,7 +96,7 @@ h4 {
 }
 
 p {
-  width: 91%;
+  width: 81%;
   margin: auto;
   font-size: 19px;
   line-height: 32px;
@@ -132,7 +136,7 @@ p,
   font-size: 20px;
 }
 
-/* One Page Smooth Scroll */
+/* Start of One Page Smooth Scroll */
 
 html,
 body,
@@ -185,9 +189,9 @@ a:hover {
 #page-four {
   background-color: rgb(254, 251, 244);
 }
-/* End ofOne Page Smooth Scroll */
+/* End of One Page Smooth Scroll */
 
-/* For hamburger nav */
+/* Start hamburger nav */
 body {
   background: #87cc77;
   margin: 0;
@@ -227,7 +231,7 @@ body {
   height: 4px;
   width: 35px;
   border-radius: 2px;
-  background-color: white;
+  background-color: rgb(121, 127, 102);
   position: relative;
   display: block;
   transition: all 0.2s ease-in-out;
@@ -244,7 +248,7 @@ body {
   height: 4px;
   width: 35px;
   border-radius: 2px;
-  background-color: white;
+  background-color: rgb(121, 127, 102);
   position: absolute;
   content: "";
   transition: all 0.2s ease-in-out;
@@ -278,7 +282,7 @@ input[type="checkbox"]:checked ~ #overlay-button span:after {
 #overlay {
   height: 100vh;
   width: 100vw;
-  background: #ec6451;
+  background: rgb(121, 127, 102);
   z-index: 2;
   visibility: hidden;
   position: fixed;
@@ -307,6 +311,10 @@ input[type="checkbox"]:checked ~ #overlay-button span:after {
 #overlay ul li a:hover {
   color: #333332;
 }
+
+/* End of Hamburger Nav */
+
+
 /* For Desktop */
 
 @media only screen and (min-width: 768px) {
