@@ -8,7 +8,7 @@
 
   body {
     background-color: rgb(254, 251, 244);
-    font-size: 16px;
+    font-size: 19px;
     margin: 0;
   }
 
@@ -26,7 +26,7 @@
   h2 {
     font-family: Arsenal;
     src: url(fonts/Arsenal-Regular.ttf);
-    font-size: 32px;
+    font-size: 27px;
     letter-spacing: 3px;
     margin-bottom: 10px;
     margin-top: 17px;
@@ -43,7 +43,7 @@
   h4 {
     font-family: Montserrat;
     src: url(fonts/Montserrat-Regular.ttf);
-    font-size: 27px;
+    font-size: 20px;
     font-weight: normal;
   }
 
@@ -68,8 +68,14 @@
     text-align: center;
     font-size: 24px;
     line-height: 38px;
+    margin-top: 29px;
+    color: rgb(254, 251, 244);
   }
 
+  .quote-section .quote {
+    padding-bottom: 69px;
+  }
+d
   .paragraph-tidbit {
     font-weight: normal;
     font-size: 16px;
@@ -84,11 +90,13 @@
     width: 81%;
     margin: auto;
     margin-bottom: 31px;
+    padding-top: 81px;
   }
 
   h4 {
     width: 91%;
     margin: auto;
+    margin-top: -4px;
   }
 
   p {
@@ -128,6 +136,10 @@
     text-align: center;
   }
 
+  .news-thumbs h3 {
+    margin-bottom: 60px;
+  }
+
   .button {
     padding: 14px 26px;
     text-decoration: none;
@@ -143,74 +155,98 @@
     margin: auto;
   }
 
+  .footerNav {
+    background-color: rgb(121, 127, 102);
+    color: rgb(254, 251, 244);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
 /* Start of One Page Smooth Scroll */
 
-html,
-body,
-#page-one,
-#page-two,
-#page-three,
-#page-four {
-  height: auto;
-  min-height: 100vh;
-}
+  html,
+  body,
+  #page-one,
+  #page-two,
+  #page-three,
+  #page-four {
+    height: auto;
+    min-height: 100vh;
+  }
 
-#page-one,
-#page-two,
-#page-three,
-#page-four {
-  padding-top: 2em;
-}
+  #page-one,
+  #page-two,
+  #page-three,
+  #page-four {
+    padding-top: 2em;
+  }
 
-#mainNav {
-  background-color: rgb(254, 251, 244);
-  color: #ddd;
-  line-height: 4em;
-  padding: 0 1em;
-  position: fixed;
-  top: 0em;
-  width: 100%;
-}
+  #mobileNav {
+    background-color: rgb(254, 251, 244);
+    color: #ddd;
+    line-height: 4em;
+    padding: 0 1em;
+    position: fixed;
+    top: 0em;
+    width: 100%;
+  }
 
-#mainNav a,
-#mainNav a:hover {
-  color: #eee;
-  text-decoration: none;
-  display: inline-block;
-  padding: 0 1em;
-}
+  #mobileNav a,
+  #mobileNav a:hover {
+    color: #eee;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 1em;
+  }
 
-a:hover {
-  color: #4861a2;
-}
+  a:hover {
+    color: #4861a2;
+  }
 
-#page-one {
-  background-color: rgb(254, 251, 244);
-}
-#page-two {
-  background-color: rgb(254, 251, 244);
-}
-#page-three {
-  background-color: rgb(254, 251, 244);
-}
-#page-four {
-  background-color: rgb(254, 251, 244);
-}
+  #page-one {
+    background-color: rgb(254, 251, 244);
+  }
+  #page-two {
+    background-color: rgb(254, 251, 244);
+  }
+  #page-three {
+    background-color: rgb(254, 251, 244);
+  }
+  #page-four {
+    background-color: rgb(254, 251, 244);
+  }
 /* End of One Page Smooth Scroll */
 
 /* Start hamburger nav */
-body {
-  background: #87cc77;
-  margin: 0;
-  font-family: Montserrat;
-  width: 100vw;
-  height: 100vh;
-  animation: bugfix infinite 1s;
-  -webkit-animation: bugfix infinite 1s;
-  text-align: left;
-}
+  body {
+    margin: 0;
+    font-family: Arsenal;
+    width: 100vw;
+    height: 100vh;
+    animation: bugfix infinite 1s;
+    -webkit-animation: bugfix infinite 1s;
+    text-align: left;
+  }
 
-@keyframes bugfix {
+  #logo {
+    font-size: 18px;
+    float: left;
+    display: flex;
+  }
+
+  @keyframes bugfix {
+    from {
+      padding: 0;
+    }
+    to {
+      padding: 0;
+    }
+  }
+  @-webkit-keyframes bugfix {
   from {
     padding: 0;
   }
@@ -218,107 +254,125 @@ body {
     padding: 0;
   }
 }
-@-webkit-keyframes bugfix {
-  from {
-    padding: 0;
+  #overlay-button {
+    position: absolute;
+    right: 2em;
+    top: 3em;
+    padding: 26px 11px;
+    z-index: 5;
+    cursor: pointer;
+    user-select: none;
   }
-  to {
-    padding: 0;
+  #overlay-button span {
+    height: 4px;
+    width: 35px;
+    border-radius: 2px;
+    background-color: rgb(121, 127, 102);
+    position: relative;
+    display: block;
+    transition: all 0.2s ease-in-out;
   }
-}
-#overlay-button {
-  position: absolute;
-  right: 2em;
-  top: 3em;
-  padding: 26px 11px;
-  z-index: 5;
-  cursor: pointer;
-  user-select: none;
-}
-#overlay-button span {
-  height: 4px;
-  width: 35px;
-  border-radius: 2px;
-  background-color: rgb(121, 127, 102);
-  position: relative;
-  display: block;
-  transition: all 0.2s ease-in-out;
-}
-#overlay-button span:before {
-  top: -10px;
-  visibility: visible;
-}
-#overlay-button span:after {
-  top: 10px;
-}
-#overlay-button span:before,
-#overlay-button span:after {
-  height: 4px;
-  width: 35px;
-  border-radius: 2px;
-  background-color: rgb(121, 127, 102);
-  position: absolute;
-  content: "";
-  transition: all 0.2s ease-in-out;
-}
-#overlay-button:hover span,
-#overlay-button:hover span:before,
-#overlay-button:hover span:after {
-  background: #333332;
-}
+  #overlay-button span:before {
+    top: -10px;
+    visibility: visible;
+  }
+  #overlay-button span:after {
+    top: 10px;
+  }
+  #overlay-button span:before,
+  #overlay-button span:after {
+    height: 4px;
+    width: 35px;
+    border-radius: 2px;
+    background-color: rgb(121, 127, 102);
+    position: absolute;
+    content: "";
+    transition: all 0.2s ease-in-out;
+  }
+  #overlay-button:hover span,
+  #overlay-button:hover span:before,
+  #overlay-button:hover span:after {
+    background: rgb(254, 251, 244);
+  }
 
-input[type="checkbox"] {
-  display: none;
-}
+  input[type="checkbox"] {
+    display: none;
+  }
 
-input[type="checkbox"]:checked ~ #overlay {
-  visibility: visible;
-}
+  input[type="checkbox"]:checked ~ #overlay {
+    visibility: visible;
+  }
 
-input[type="checkbox"]:checked ~ #overlay-button:hover span,
-input[type="checkbox"]:checked ~ #overlay-button span {
-  background: transparent;
-}
-input[type="checkbox"]:checked ~ #overlay-button span:before {
-  transform: rotate(45deg) translate(7px, 7px);
-  opacity: 1;
-}
-input[type="checkbox"]:checked ~ #overlay-button span:after {
-  transform: rotate(-45deg) translate(7px, -7px);
-}
+  input[type="checkbox"]:checked ~ #overlay-button:hover span,
+  input[type="checkbox"]:checked ~ #overlay-button span {
+    background: transparent;
+  }
+  input[type="checkbox"]:checked ~ #overlay-button span:before {
+    transform: rotate(45deg) translate(7px, 7px);
+    opacity: 1;
+  }
+  input[type="checkbox"]:checked ~ #overlay-button span:after {
+    transform: rotate(-45deg) translate(7px, -7px);
+  }
 
-#overlay {
-  height: 100vh;
-  width: 100vw;
-  background: rgb(121, 127, 102);
-  z-index: 2;
-  visibility: hidden;
-  position: fixed;
-}
-#overlay.active {
-  visibility: visible;
-}
-#overlay ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  height: 100vh;
-  padding-left: 0;
-  list-style-type: none;
-}
-#overlay ul li {
-  padding: 1em;
-}
-#overlay ul li a {
-  color: white;
-  text-decoration: none;
-  font-size: 1.5em;
-}
-#overlay ul li a:hover {
-  color: #333332;
-}
+  #overlay {
+    height: fit-content;
+    width: 100vw;
+    background: rgb(121, 127, 102);
+    z-index: 2;
+    visibility: hidden;
+    position: fixed;
+    display: inline;
+    bottom: 2.25rem;
+    left: -0.2rem;
+    cursor: pointer;
+  }
+
+  .mobileNav .overlay {
+    color: rgb(254, 251, 244);
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+    opacity: 1;
+  }
+
+
+  #overlay.active {
+    visibility: visible;
+  }
+
+  #overlay ul {
+    top: 50%;
+    position: relative;
+    opacity: 1;
+    flex-direction: column;
+    text-align: right;
+    height: 100vh;
+    padding-left: 0;
+    list-style-type: none;
+    margin-right: 1.5rem;
+    bottom: -18.75rem;
+    line-height: 31px;
+  }
+
+  #overlay ul li {
+    padding: 1em;
+  }
+
+  #overlay ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+  }
+
+  #overlay ul li a:hover {
+    color: #333332;
+  }
+
 
 /* End of Hamburger Nav */
 

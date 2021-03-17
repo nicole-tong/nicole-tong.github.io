@@ -72,6 +72,11 @@ header h1 {
   left: 0;
 }
 
+.containerFlexbox {
+  display: flex;
+
+}
+
 .splash-page .container {
   position: relative;
   width: 100vw;
@@ -139,7 +144,6 @@ section {
   height: 500px;
 }
 
-
 .subpage div {
   flex: 1;
 }
@@ -158,6 +162,7 @@ section {
   display: flex;
   background-color: white;
   background-position: left;
+  width: 10vw;
 }
 
 .issue-img,
