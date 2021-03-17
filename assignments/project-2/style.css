@@ -1,9 +1,21 @@
   * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
   }
   @font-face {
     font-family: Arsenal;
     src: url(fonts/Arsenal-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: Montserrat;
+    src: url(fonts/Montserrat-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: Montserrat;
+    src: url(fonts/Montserrat-Light.ttf);
   }
 
   body {
@@ -70,6 +82,10 @@
     line-height: 38px;
     margin-top: 29px;
     color: rgb(254, 251, 244);
+  }
+
+  ul li {
+    font-family: url(fonts/Montserrat-Regular.ttf);
   }
 
   .quote-section .quote {
@@ -164,6 +180,31 @@ d
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-top: 6rem;
+  }
+
+  .instagram-posts .news-thumbs .content-card {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+  }
+
+  .dot {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid rgb(254, 251, 244);
+  }
+
+  li {
+    list-style: none;
+    padding-bottom: 10px;
+    font-family: url(fonts/Montserrat-Regular.ttf);
+  }
+
+  .footerNav .containerEmail .checkbox {
+    text-align: left;
   }
 
 /* Start of One Page Smooth Scroll */
@@ -376,10 +417,47 @@ d
 
 /* End of Hamburger Nav */
 
+/* Start of Newsletter */
+.container {
+  padding: 20px;
+  text-align: center;
+}
+
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+input[type=submit] {
+  background-color: rgb(254, 251, 244);
+  color: rgb(121, 127, 102);
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+/* End of Newsletter */
+
 
 /* For Desktop */
 
+@media screen and (min-width:640px) {
+  .intagram-posts {
+      width: 33.33% !important;
+  }
+  
 @media only screen and (min-width: 768px) {
-}
+  }
 @media only screen and (min-width: 1200px) {
+  }
+
 }
