@@ -183,12 +183,6 @@ d
     margin-top: 6rem;
   }
 
-  .instagram-posts .news-thumbs .content-card {
-    display: flex;
-    flex: 1;
-    flex-direction: row;
-  }
-
   .dot {
     height: 120px;
     width: 120px;
@@ -416,6 +410,20 @@ d
 
 
 /* End of Hamburger Nav */
+
+/* Start of Instagram grid */
+.insta-grid {
+  display: flex;
+  margin-top: 100px;
+}
+.insta-grid img {
+  width: 100%;
+}
+.insta-grid div {
+  flex: 33%;
+  padding: 10px;
+}
+/* End of Instagram grid */
 
 /* Start of Newsletter */
 .container {
