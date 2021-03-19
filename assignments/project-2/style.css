@@ -7,15 +7,8 @@
     font-family: "Arsenal";
     src: url('fonts/Arsenal-Regular.ttf');
       format: ("tff");
-    src: url('fonts/Arsenal-Semibold.ttf');
-      format: ("tff");
     font-weight: normal;
     font-style: normal;
-  }
-
-  @font-face {
-    font-family: "Arsenal";
-    src: url('fonts/Arsenal-Semibold.ttf');
   }
 
   @font-face {
@@ -139,15 +132,18 @@ d
     margin-bottom: 39px;
   }
 
-  .feature-home .feature-content,
-  .content-card {
-    width: 81%;
-    margin: auto;
-  }
-
   .feature .feature-content,
   .content-card {
     margin-bottom: 56px;
+  }
+
+  .feature-content h1 {
+    font-size: 13px;
+    width: 80%;
+  }
+
+  .feature-content h2 {
+    width: 80%;
   }
 
   .feature .news-thumbs {
@@ -156,10 +152,10 @@ d
   }
 
   .news-thumbs, .feature-image {
-      display: flex;
-      flex-direction: column;
-      margin: auto;
-      width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 80%;
   }
 
   .content-card {
@@ -177,6 +173,12 @@ d
     color: rgb(254, 251, 244);
     font-size: 20px;
     margin-right: auto;
+    opacity: 1;
+    transition: 0.3s;
+  }
+
+  .button:hover {
+    opacity: 0.6
   }
 
   .footerNav {
@@ -490,29 +492,97 @@ input[type=submit]:hover {
     display: flex;
     flex: 1;
     flex-direction: row;
+    margin: 0 auto;
+    width: 80%;
   }
-/* Start of Homepage */
 
-  .feature .feature-home .feature-content .news-thumbs .feature-image .insta-grid .img{
+  .feature-home .feature-content {
+    padding-left: 3rem;
+  }
+
+  .feature-content h1 {
+    margin-top: 7rem;
+    font-size: 11px
+  }
+
+  .feature-content h2 {
+    font-size: 25px
+  }
+
+/* End of Homepage */
+
+  .feature .feature-content {
+    display: flex;
+    flex: 1;
     flex-direction: row;
     margin: 0 auto;
     width: 80%;
   }
 
-/* Start of Homepage */
-  .news-thumbs .img{
+/* Start of Photos */
+  .news-thumbs .img {
     display: flex;
     flex-direction: column;
     margin: auto;
     width: 80%;
   }
-}
 
-.news-thumbs {
-
-}
-
-@media only screen and (min-width: 1440px) {
+  .news-thumbs article {
+    flex: 1;
   }
 
+
+/* Start of Page Two */
+  #page-two {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 80%;
+  }
+
+  #page-two.feature-image {
+    width: 101rem;
+    margin-top: 11rem;
+  }
+ 
+  #page-two .feature-content h3 {
+    padding-top: 9rem;
+    margin: revert;
+  }
+
+  #page-two .feature-content p {
+    margin: revert;
+    font-size: 20px;
+  }
+
+/* End of Page Two */
+
+/* Start of Page Three */
+}
+
+/* Start of Page Three */
+
+@media only screen and (min-width: 1440px) {
+  .feature-home .feature-content {
+    padding-left: 5rem;
+  }
+
+  .feature-content h1 {
+    margin-top: 14rem;
+    font-size: 21px
+  }
+
+  .feature-content h2 {
+    font-size: 42px
+  }
+
+  .quote-section .quotation {
+    padding-top: 9rem;
+  }
+
+  .quote-section .quote {
+    padding-bottom: 9rem;
+    font-size: 51px;
+    line-height: 73px;
+  }
 }
